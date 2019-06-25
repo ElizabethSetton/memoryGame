@@ -1,0 +1,43 @@
+// COLOR VARIABLES
+$color-primary: #fffac4;
+$color-primary-dark: #b1ac74;
+
+$color-red: #ea444e;
+$color-blue: #7ec287;
+$color-yellow: #f2b349;
+$color-yellow-dark: #e5dfa1;
+$color-black: #0f4d5c;
+$color-black-dark: #0f0e0c;
+
+// FONT VARIABLES
+$font-primary: 'Nunito', sans-serif;
+$font-display: 'Josefin Sans', sans-serif;
+
+:root {
+    --num-row: 4;
+    --num-colum: 4;
+    --size: 10rem;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(circle, #444040, #464343, #000000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-width: 100vh;
+    font-size: 16px;
+    font-family: $font-primary;
+    text-align: center;
+}
